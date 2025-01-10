@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election Voting System</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="cascading.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Online Election Voting System</h1>
+        </header>
+
+        <section class="voting-section">
+            <h2>Select Your Candidate</h2>
+            <form action="#" method="POST" id="voteForm">
+                <div class="candidate">
+                    <input type="radio" id="candidate1" name="candidate" value="Candidate A">
+                    <label for="candidate1">Candidate A</label>
+                </div>
+                <div class="candidate">
+                    <input type="radio" id="candidate2" name="candidate" value="Candidate B">
+                    <label for="candidate2">Candidate B</label>
+                </div>
+                <div class="candidate">
+                    <input type="radio" id="candidate3" name="candidate" value="Candidate C">
+                    <label for="candidate3">Candidate C</label>
+                </div>
+                <div class="candidate">
+                    <input type="radio" id="candidate4" name="candidate" value="Candidate D">
+                    <label for="candidate4">Candidate D</label>
+                </div>
+                
+                <button type="submit">Submit Vote</button>
+            </form>
+
+            <div id="confirmationMessage" class="confirmation" style="display:none;">
+                <p>Thank you for voting!</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Link to external JavaScript -->
+    <script src="java.js"></script>
+</body>
+</html>
